@@ -6,8 +6,9 @@ l=voc.shape[0]
 i=np.random.choice(range(l))
 indices=np.ramdom.choice(l,size=4,replace=False)
 st.write(indices)
-word_fr=voc["Définition"].values[i]
-st.write(word_fr)
+for i in range (4):
+  st.button(voc["Hanzi"].values[indices[i]])
+    
 
 
 
