@@ -20,8 +20,8 @@ with col2:
     for i in range(2,4):
         st.button(voc["Hanzi"].values[indices[i]], on_click= is_correct, args=(indices[i],j))
 
-#st.button("Seconday button")  # st.button default type is secondary
-#st.button("Primary button", type="primary")
+st.button("Seconday button")  # st.button default type is secondary
+st.button("Primary button", type="primary")
 
 
 
